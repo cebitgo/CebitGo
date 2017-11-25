@@ -2,20 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class OnHit : MonoBehaviour {
-
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+public class OnHit : MonoBehaviour
+{
 
     private void OnTriggerEnter(Collider other)
     {
-        Destroy(transform.parent.gameObject);
+        this.gameObject.SetActive(false);
+        //Destroy(transform.parent.gameObject);
     }
 }
