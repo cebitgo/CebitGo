@@ -9,6 +9,7 @@
 				ZWrite On
 				ZTest LEqual
 				ColorMask 0
+				cull off
 
 				CGPROGRAM
 				#pragma vertex vert

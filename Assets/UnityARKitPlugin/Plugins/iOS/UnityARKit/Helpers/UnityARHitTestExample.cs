@@ -8,6 +8,7 @@ namespace UnityEngine.XR.iOS
 		public Transform m_HitTransform;
         public GameObject ballPrefab;
         public Transform ballSpawn;
+        public int rotation =5;
 
         bool HitTestWithResultType (ARPoint point, ARHitTestResultType resultTypes)
         {
@@ -16,7 +17,8 @@ namespace UnityEngine.XR.iOS
                 foreach (var hitResult in hitResults) {
                     Debug.Log ("Got hit!");
                     m_HitTransform.position = UnityARMatrixOps.GetPosition (hitResult.worldTransform);
-                    m_HitTransform.rotation = UnityARMatrixOps.GetRotation (hitResult.worldTransform);
+                    m_HitTransform.Rotate(0, 5, 0);
+                    //m_HitTransform.rotation = UnityARMatrixOps.GetRotation (hitResult.worldTransform);
                     Debug.Log (string.Format ("x:{0:0.######} y:{1:0.######} z:{2:0.######}", m_HitTransform.position.x, m_HitTransform.position.y, m_HitTransform.position.z));
                     return true;
                 }
