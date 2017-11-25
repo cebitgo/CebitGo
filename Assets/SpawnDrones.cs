@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class SpawnDrones : MonoBehaviour {
 
+	
 	public GameObject dronePrefab;
 	float timer;
-
 
 	// Use this for initialization
 	void Start () {
