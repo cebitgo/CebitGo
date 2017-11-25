@@ -17,9 +17,7 @@ public class ShootBullet : MonoBehaviour {
 		if (Input.GetKeyDown("space"))
 		{
 			GameObject bullet = Instantiate(bulletPrefab, player.transform.position, player.transform.rotation);
-
-			// Add velocity to the bullet
-			bullet.GetComponent<Rigidbody>().velocity = new Vector3(0, 0, 2) * 6;
+			bullet.GetComponent<Rigidbody>().velocity = player.transform.forward * 6;
 			Destroy(bullet, 10.0f);
 		}
             
