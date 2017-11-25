@@ -72,37 +72,37 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: group_1Mat
-    second: {fileID: 2100000, guid: 90f09f891c8c84f76bba0e3881dab396, type: 2}
+    second: {fileID: 2100000, guid: 8453abd43cb704823a1e82012c7eea7e, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: group_2Mat
-    second: {fileID: 2100000, guid: a1f9c4a07f9404f1cb9ea251d0911621, type: 2}
+    second: {fileID: 2100000, guid: 8453abd43cb704823a1e82012c7eea7e, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: group_3Mat
-    second: {fileID: 2100000, guid: 54c0d818089ac491e838833e38dc3006, type: 2}
+    second: {fileID: 2100000, guid: 8453abd43cb704823a1e82012c7eea7e, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: group_5Mat
-    second: {fileID: 2100000, guid: 1182bfecd16204d99bcd8d28b3ef65ba, type: 2}
+    second: {fileID: 2100000, guid: 8453abd43cb704823a1e82012c7eea7e, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: group_6Mat
-    second: {fileID: 2100000, guid: 751baaa47cadd4a6aad888c76325cb64, type: 2}
+    second: {fileID: 2100000, guid: 8453abd43cb704823a1e82012c7eea7e, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: group_7Mat
-    second: {fileID: 2100000, guid: ebe526324719448e6bdbab4e8c86987e, type: 2}
+    second: {fileID: 2100000, guid: 8453abd43cb704823a1e82012c7eea7e, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: group_8Mat
-    second: {fileID: 2100000, guid: c2fff7a03fdc147ef8e2371acbfa510b, type: 2}
+    second: {fileID: 2100000, guid: 8453abd43cb704823a1e82012c7eea7e, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -112,7 +112,7 @@ ModelImporter:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
-    materialLocation: 0
+    materialLocation: 1
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
