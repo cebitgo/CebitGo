@@ -15,10 +15,9 @@ public class FlyingDrone : MonoBehaviour {
 		transform.position = newPosition;
 	}
 
-	void OnCollisionEnter()
+	void OnCollisionEnter(Collision col)
 	{
 		Destroy(this.gameObject);
+		Destroy(col.gameObject);
 	}
-
-
 }

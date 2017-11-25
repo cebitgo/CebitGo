@@ -6,8 +6,6 @@ namespace UnityEngine.XR.iOS
 	public class UnityARHitTestExample : MonoBehaviour
 	{
 		public Transform m_HitTransform;
-        public GameObject ballPrefab;
-        public Transform ballSpawn;
 
         bool HitTestWithResultType (ARPoint point, ARHitTestResultType resultTypes)
         {
