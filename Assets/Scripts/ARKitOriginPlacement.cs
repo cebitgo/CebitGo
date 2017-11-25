@@ -21,9 +21,9 @@ public class ARKitOriginPlacement : MonoBehaviour
     public Transform m_HitTransform;
 
     public static Vector3 WorldRight
-    { get { return ZeroY(_worldPositionARRight - _worldPositionARForward).normalized; } }
+    { get { return ZeroY(_worldPositionARRight - _worldPositionAROrigin).normalized; } }
     public static Vector3 WorldForward
-    { get { return ZeroY(_worldPositionARRight - _worldPositionARForward).normalized; } }
+    { get { return ZeroY(_worldPositionARForward - _worldPositionAROrigin).normalized; } }
 
     [SerializeField()]
     private ARKitOriginComponent _component = ARKitOriginComponent.Origin;

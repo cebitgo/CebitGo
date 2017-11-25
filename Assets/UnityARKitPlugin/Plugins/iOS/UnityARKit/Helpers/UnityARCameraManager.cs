@@ -19,7 +19,6 @@ public class UnityARCameraManager : MonoBehaviour {
 	void Start () {
 
 		m_session = UnityARSessionNativeInterface.GetARSessionNativeInterface();
-
 #if !UNITY_EDITOR
 		Application.targetFrameRate = 60;
         ARKitWorldTrackingSessionConfiguration config = new ARKitWorldTrackingSessionConfiguration();
@@ -33,8 +32,8 @@ public class UnityARCameraManager : MonoBehaviour {
 			m_camera = Camera.main;
 		}
 #else
-		//put some defaults so that it doesnt complain
-		UnityARCamera scamera = new UnityARCamera ();
+        //put some defaults so that it doesnt complain
+        UnityARCamera scamera = new UnityARCamera ();
 		scamera.worldTransform = new UnityARMatrix4x4 (new Vector4 (1, 0, 0, 0), new Vector4 (0, 1, 0, 0), new Vector4 (0, 0, 1, 0), new Vector4 (0, 0, 0, 1));
 		Matrix4x4 projMat = Matrix4x4.Perspective (60.0f, 1.33f, 0.1f, 30.0f);
 		scamera.projectionMatrix = new UnityARMatrix4x4 (projMat.GetColumn(0),projMat.GetColumn(1),projMat.GetColumn(2),projMat.GetColumn(3));
