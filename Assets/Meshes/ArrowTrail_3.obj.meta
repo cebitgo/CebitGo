@@ -1,50 +1,28 @@
 fileFormatVersion: 2
-guid: e2effb5afe9cd4d179b666bab6f7c903
-timeCreated: 1511630325
+guid: a13be6b5ca1ed4bf09617c9af76adb78
+timeCreated: 1511619539
 licenseType: Free
 ModelImporter:
   serializedVersion: 22
   fileIDToRecycleName:
     100000: //RootNode
-    100002: DrohnenKoerper
-    100004: RotorHintenLinks
-    100006: RotorHintenRechts
-    100008: RotorVorneLinks
-    100010: RotorVorneRechts
+    100002: pasted__pasted__pCube2_pasted__group_group1
     400000: //RootNode
-    400002: DrohnenKoerper
-    400004: RotorHintenLinks
-    400006: RotorHintenRechts
-    400008: RotorVorneLinks
-    400010: RotorVorneRechts
-    2300000: DrohnenKoerper
-    2300002: RotorHintenLinks
-    2300004: RotorHintenRechts
-    2300006: RotorVorneLinks
-    2300008: RotorVorneRechts
-    3300000: DrohnenKoerper
-    3300002: RotorHintenLinks
-    3300004: RotorHintenRechts
-    3300006: RotorVorneLinks
-    3300008: RotorVorneRechts
-    4300000: DrohnenKoerper
-    4300002: RotorHintenLinks
-    4300004: RotorHintenRechts
-    4300006: RotorVorneRechts
-    4300008: RotorVorneLinks
-    7400000: Take 001
-    9500000: //RootNode
+    400002: pasted__pasted__pCube2_pasted__group_group1
+    2300000: pasted__pasted__pCube2_pasted__group_group1
+    3300000: pasted__pasted__pCube2_pasted__group_group1
+    4300000: pasted__pasted__pCube2_pasted__group_group1
   externalObjects:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: lambert1
-    second: {fileID: 2100000, guid: f522e544376db48a0a269b9434aeff4f, type: 2}
+      name: pasted__pasted__pCube2_pasted__group_group1Mat
+    second: {fileID: 2100000, guid: 4d6088a19b33a4718ba456712631bb07, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
-    materialLocation: 0
+    materialLocation: 1
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
@@ -65,35 +43,7 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations:
-    - serializedVersion: 16
-      name: Take 001
-      takeName: Take 001
-      firstFrame: 1
-      lastFrame: 125
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      hasAdditiveReferencePose: 0
-      loopTime: 1
-      loopBlend: 1
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask: []
-      maskType: 3
-      maskSource: {instanceID: 0}
-      additiveReferencePoseFrame: 0
+    clipAnimations: []
     isReadable: 1
   meshes:
     lODScreenPercentages: []
@@ -139,7 +89,7 @@ ModelImporter:
     hasExtraRoot: 0
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
-  animationType: 2
+  animationType: 0
   humanoidOversampling: 1
   additionalBone: 0
   userData: 
