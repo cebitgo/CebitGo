@@ -70,8 +70,8 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4986470312817672}
-  - component: {fileID: 114689671856861844}
   - component: {fileID: 135016210118266560}
+  - component: {fileID: 114689671856861844}
   - component: {fileID: 114033507066198892}
   m_Layer: 0
   m_Name: POIMarker (2)
@@ -305,8 +305,8 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4811318265797336}
-  - component: {fileID: 114106474875251712}
   - component: {fileID: 135545205305243370}
+  - component: {fileID: 114106474875251712}
   - component: {fileID: 114829056685131922}
   m_Layer: 0
   m_Name: POIMarker (1)
@@ -475,8 +475,8 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 4714319278969362}
-  - component: {fileID: 114403552532627584}
   - component: {fileID: 135419591114731498}
+  - component: {fileID: 114403552532627584}
   - component: {fileID: 114186402730638990}
   m_Layer: 0
   m_Name: POIMarker
@@ -542,8 +542,8 @@ Transform:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1240361017336980}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -1.203, y: 1.1834, z: 1.24}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4714319278969362}
@@ -559,7 +559,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1936471940611068}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.156, z: 2}
+  m_LocalPosition: {x: 2.118, y: 0.156, z: -2.374}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 224467008441526792}
@@ -573,7 +573,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1610860348350056}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 2.785, y: 0.156, z: 2}
+  m_LocalPosition: {x: 6.37, y: 0.156, z: -5.66}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 224546455164260282}
@@ -587,7 +587,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1152568371380830}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.023, y: 0.156, z: 2}
+  m_LocalPosition: {x: 14.858, y: 0.156, z: 9.98}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 224618963446291148}
@@ -721,7 +721,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9887449, g: 0.18400002, b: 1, a: 0.392}
+  m_Color: {r: 0.11764707, g: 0.45882356, b: 0.49803925, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1004,7 +1004,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9887449, g: 0.18400002, b: 1, a: 0.392}
+  m_Color: {r: 0.11764707, g: 0.45882356, b: 0.49803925, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -1545,7 +1545,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.9887449, g: 0.18400002, b: 1, a: 0.392}
+  m_Color: {r: 0.11764707, g: 0.45882356, b: 0.49803925, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
