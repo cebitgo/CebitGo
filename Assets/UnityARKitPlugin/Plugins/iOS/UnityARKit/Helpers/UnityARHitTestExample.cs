@@ -8,8 +8,7 @@ namespace UnityEngine.XR.iOS
 		public Transform m_HitTransform;
         public GameObject ballPrefab;
         public Transform ballSpawn;
-        public int rotation =5;
-
+        public int rotation = 5;
         bool HitTestWithResultType (ARPoint point, ARHitTestResultType resultTypes)
         {
             List<ARHitTestResult> hitResults = UnityARSessionNativeInterface.GetARSessionNativeInterface ().HitTest (point, resultTypes);
