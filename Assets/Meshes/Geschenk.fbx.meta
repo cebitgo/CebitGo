@@ -31,7 +31,7 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: blinn1
-    second: {fileID: 2100000, guid: b17247e8b341b6a45b6905808d6b9738, type: 2}
+    second: {fileID: 2100000, guid: ab5bcefc5b0b0a048ad0509457656cde, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -41,12 +41,12 @@ ModelImporter:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
       name: pasted__blinn2
-    second: {fileID: 2100000, guid: 69441356b767d524b973b480ac2debf0, type: 2}
+    second: {fileID: 2100000, guid: ab5bcefc5b0b0a048ad0509457656cde, type: 2}
   materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1
-    materialLocation: 0
+    materialLocation: 1
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0

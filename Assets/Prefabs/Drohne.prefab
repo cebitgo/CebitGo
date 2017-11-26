@@ -20,9 +20,9 @@ GameObject:
   m_Component:
   - component: {fileID: 4925961994946262}
   - component: {fileID: 95436221594831676}
-  - component: {fileID: 114437700721706430}
   - component: {fileID: 135988685471585132}
   - component: {fileID: 54244920291188904}
+  - component: {fileID: 114832411405588772}
   m_Layer: 0
   m_Name: Drohne
   m_TagString: Untagged
@@ -435,7 +435,7 @@ Animator:
   m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
---- !u!114 &114437700721706430
+--- !u!114 &114832411405588772
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -443,7 +443,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1135610753821966}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d1216762f880c47f2967a6036eb0a21c, type: 3}
+  m_Script: {fileID: 11500000, guid: df5f129431981b248a66ae1496985f1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _fxExplosion: {fileID: 1785109141720112, guid: 1b43c3844e91a48c0a5ff742528a228a,

@@ -12,10 +12,6 @@ public class TriggerCountdown : MonoBehaviour {
     public UnityEvent OnTimerElapsed;
     private Slider _progressSlider;
     private bool _visited = false;
-    public Image _markerBGImage;
-
-    private Color32 COLORINITIAL = new Color32(30, 117, 127, 255);
-    private Color32 COLORVISITED = new Color32(252, 82, 85, 255);
 
     private void Awake()
     {
@@ -48,7 +44,6 @@ public class TriggerCountdown : MonoBehaviour {
                 _visited = true;
                 OnTimerElapsed.Invoke();
                 _timer = 0;
-                _markerBGImage.color = COLORVISITED;
             }
         }
     }

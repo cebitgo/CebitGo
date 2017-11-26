@@ -146,6 +146,8 @@ public class SpawnDrones : MonoBehaviour
         {
             if (_onFinished != null)
                 _onFinished.Invoke();
+
+            //Debug.Log("Finished");
             //this.enabled = false;
         }
 
