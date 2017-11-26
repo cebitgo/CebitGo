@@ -1471,12 +1471,28 @@ Prefab:
       propertyPath: m_RootOrder
       value: 6
       objectReference: {fileID: 0}
-    - target: {fileID: 114874534025975530, guid: e539caf98eddc7944a7f634a298e7353,
+    - target: {fileID: 23700903238178064, guid: e539caf98eddc7944a7f634a298e7353,
         type: 2}
-      propertyPath: giftPrefab
-      value: 
-      objectReference: {fileID: 1640634178261104, guid: 2b09c47da850c6e4ca4f6d56ae22c1a4,
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 23274173404937874, guid: e539caf98eddc7944a7f634a298e7353,
         type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1203249523814972, guid: e539caf98eddc7944a7f634a298e7353, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1096054633486786, guid: e539caf98eddc7944a7f634a298e7353, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1037996721531588, guid: e539caf98eddc7944a7f634a298e7353, type: 2}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e539caf98eddc7944a7f634a298e7353, type: 2}
   m_IsPrefabParent: 0
@@ -1608,7 +1624,7 @@ Prefab:
     - target: {fileID: 224226981242457634, guid: 5a2c7b01b5f209d4994ee72bde9012b7,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: -27.169983
+      value: 408.38
       objectReference: {fileID: 0}
     - target: {fileID: 114890058166042170, guid: 5a2c7b01b5f209d4994ee72bde9012b7,
         type: 2}
@@ -1693,7 +1709,7 @@ Prefab:
     - target: {fileID: 224263011634979014, guid: 5a2c7b01b5f209d4994ee72bde9012b7,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: 445.19
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224655215263604476, guid: 5a2c7b01b5f209d4994ee72bde9012b7,
         type: 2}
@@ -1768,7 +1784,7 @@ Prefab:
     - target: {fileID: 224423824373652158, guid: 5a2c7b01b5f209d4994ee72bde9012b7,
         type: 2}
       propertyPath: m_LocalPosition.y
-      value: 459.83
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114847724480341604, guid: 5a2c7b01b5f209d4994ee72bde9012b7,
         type: 2}
